@@ -1,186 +1,113 @@
 ---
-# Display name
-title: 吳健雄
+# Example Hugo Academic/Wowchemy index.md for a personal research homepage
 
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
-
-# Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
-# Status emoji
-status:
-  icon: ☕️
-
-# Is this the primary user of the site?
-superuser: true
-
-# Highlight the author in author lists? (true/false)
-highlight_name: true
-
-# Role/position/tagline
-role: Chief Scientist
-
-# Organizations/Affiliations to display in Biography blox
+name: "Ashray Mohit"
+role: "Ph.D. Candidate in Mechanical Engineering"
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+- name: "University of Michigan"
+  url: "https://umich.edu"
+avatar: "profile.jpg"  # place your profile photo in 'static/media/'
+email: "ashraym@umich.edu"
+address:
+  street: "2350 Hayward St"
+  city: "Ann Arbor"
+  region: "MI"
+  postal_code: "48109"
+  country: "USA"
+links:
+- icon: envelope
+  icon_pack: fas
+  name: Email
+  url: "mailto:ashraym@umich.edu"
+- icon: github
+  icon_pack: fab
+  name: GitHub
+  url: "https://github.com/AshrayMohit"
+- icon: linkedin
+  icon_pack: fab
+  name: LinkedIn
+  url: "https://www.linkedin.com/in/ashray-mohit/"
 
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
-profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+# Bio
+bio: |
+  I am a Ph.D. candidate at the University of Michigan working on turbulent combustion, optimization, and machine learning for fluid mechanics. My research focuses on improving the performance and efficiency of industrial waste gas flares using high-fidelity simulations and data-driven methods.
 
+# Interests
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+- Turbulent combustion modeling
+- Large-Eddy Simulation (LES) of flares
+- Data-driven fluid mechanics
+- Optimization and machine learning in engineering
 
+# Education
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+- degree: "Ph.D. in Mechanical Engineering"
+  institution: "University of Michigan, Ann Arbor"
+  year: "2023–present"
+- degree: "M.S. in Aerospace Engineering (Cum Laude)"
+  institution: "University of Michigan, Ann Arbor"
+  year: "2021–2023"
+- degree: "B.Tech. in Aerospace Engineering (Summa Cum Laude)"
+  institution: "SRM Institute of Science & Technology, Chennai"
+  year: "2016–2020"
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+# Selected Publications (add more or use a publications widget)
+publications:
+- title: "Impact of turbulence on combustion performance in non-assist waste gas flares"
+  journal: "Flow, Turbulence and Combustion"
+  year: 2025
+  url: "https://www.researchsquare.com/article/rs-6584452/v1"
+- title: "Effect of nozzle geometry on the performance of non-assist flares"
+  journal: "Energy and Fuels"
+  year: 2025
+  url: "https://arxiv.org/abs/2507.21827"
+- title: "Development of a novel autonomous space debris collision avoidance system for uncrewed spacecraft"
+  journal: "Journal of Aerospace Engineering"
+  year: 2022
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+# Experience
+experience:
+- role: "Graduate Student Research Assistant"
+  organization: "University of Michigan"
+  year: "2022–present"
+  description: |
+    Developing computational frameworks for LES simulations of waste gas flares, with a focus on combustion efficiency and mixing under crosswind conditions.  
+    Advisors: [Jesse Capecelatro](https://websites.umich.edu/~jcaps/), [Margaret Wooldridge](https://wooldridge.engin.umich.edu/)
+- role: "Data Science Intern"
+  organization: "Kyndryl, Bengaluru"
+  year: "2022"
+  description: "Used machine learning and computer vision (OCR, OpenCV) to detect anomalies in industrial data."
+- role: "Software Intern"
+  organization: "IBM Singapore"
+  year: "2018"
+  description: "Optimized testing and deployment pipeline for AI chatbot interfaces."
 
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
-
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+# Awards
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+- "Performance-based Scholarship, SRM Institute of Science & Technology (2017–2019)"
+- "Second rank, Department of Aerospace Engineering, SRM (2020)"
+
+# Contact
+contact:
+  email: "ashraym@umich.edu"
+  github: "https://github.com/AshrayMohit"
+  linkedin: "https://www.linkedin.com/in/ashray-mohit/"
+  location: "Ann Arbor, MI, USA"
+
+# Download CV
+cv: "cv.pdf"  # Place your PDF in 'static/files/'
 ---
 
-## About Me
+<!-- Additional custom content or call-to-action buttons below -->
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+**Download my full CV:** [PDF](/files/cv.pdf)
+
+---
+
+## Latest News
+<!-- Add posts, conferences, or news here -->
+
+---
+
+## More
+Find me on [GitHub](https://github.com/AshrayMohit) or [LinkedIn](https://www.linkedin.com/in/ashray-mohit/).
